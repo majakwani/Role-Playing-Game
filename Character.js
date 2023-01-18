@@ -31,7 +31,7 @@ function Character(data) {
     }
     
     this.getCharacterHtml = function () {
-        const { elementId, name, avatar, health, diceHtml } = this
+        const { name, avatar, health, diceHtml } = this
         const healthBar = this.getHealthBarHtml()
         return `
             <div class="character-card">
